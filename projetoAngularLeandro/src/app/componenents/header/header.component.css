@@ -1,0 +1,46 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    border-bottom: 1px solid rgb(228, 77, 77);
+}
+
+.brand, .links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand img{
+    width: 120px;
+    height: 80px;
+    margin-right: .6em;
+}
+
+.brand h2{
+    transition: .4s;
+}
+
+.brand:hover > h2{
+    color: red;
+}
+
+.links li{
+   margin-right: 1em;
+   list-style: none;
+}
+
+#add a{
+    color: rgb(228, 77, 77);
+}
+
+#add a:hover{
+    background-color: #f7eaea;
+}
+
+ul li a:hover{
+   background-color: yellow;
+   color: black;
+   font-weight: 600;
+   padding: 8px;
+}
